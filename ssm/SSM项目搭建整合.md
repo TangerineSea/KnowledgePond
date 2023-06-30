@@ -628,7 +628,7 @@ mybatis-spring1.2.3版以上的才有这个 .
 
 dao继承Support类 , 直接利用 getSqlSession() 获得 , 然后直接注入SqlSessionFactory . 比起方式1 , 不需要管理SqlSessionTemplate , 而且对事务的支持更加友好 . 可跟踪源码查看
 
-![ssm项目整合图1](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2021/04/13/kuangstudyb25452cf-79e0-4c0c-a93e-680f2df26509.png)
+![ssm项目整合图1](https://github.com/TangerineSea/KnowledgePond/raw/074208a5d7eed039aceb613df278c1d7059470ed/picture/ssm%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%881.png)
 
 测试：
 
@@ -1388,7 +1388,7 @@ public String deleteBook(@PathVariable("bookId") int id) {
 
 **项目结构图**
 
-![ssm项目整合图2](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2021/04/13/kuangstudyf53908ae-08e5-4d10-8f30-483d0afc6c55.png)
+![ssm项目整合图2](https://github.com/TangerineSea/KnowledgePond/raw/074208a5d7eed039aceb613df278c1d7059470ed/picture/ssm%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%882.png)
 
 ### 7、小结及展望
 
@@ -1485,7 +1485,7 @@ public String queryBook(String queryBookName,Model model){
 
 在前端添加一个展示全部书籍的按钮
 
-![ssm项目整合图3](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2021/04/13/kuangstudy2dcc5bc9-c134-4d6e-b867-614c5066328f.png)
+![ssm项目整合图3](https://github.com/TangerineSea/KnowledgePond/raw/074208a5d7eed039aceb613df278c1d7059470ed/picture/ssm%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88%E5%9B%BE3.png)
 
 ```java jsp
 2. 并在后台增加一些判断性的代码！
