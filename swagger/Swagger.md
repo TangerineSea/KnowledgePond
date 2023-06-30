@@ -95,7 +95,7 @@ public class SwaggerConfig {
 
 5. 测试运行：http://localhost:8080/swagger-ui.html
 
-![swagger](KnowledgePond/picture/swagger.png)
+![swagger](picture/swagger.png)
 
 
 
